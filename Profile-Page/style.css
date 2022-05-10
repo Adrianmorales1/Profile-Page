@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.navbar {
+    width: auto;
+    height:110px;
+    background-color: green;
+    margin-bottom: 30px;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    width:800px;
+    height:500px;
+    background-color: white;
+    margin: 25px;
+    margin-bottom: 40px;
+}
+
+.educ {
+    width:800px;
+    height:400px;
+    background-color: blue;    
+    margin:25px;
+}
+
+
+
+.con-req {
+    width:350px;
+    height:250px;
+    background-color: black;
+    margin:20px;
+    margin-bottom: 40px;
+}
+
+.your-con {
+    width:350px;
+    height:450px;
+    background-color: aqua;
+    margin:20px;
+}
