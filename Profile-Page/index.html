@@ -27,7 +27,7 @@
 
                 <div class="prf-nm">                    
                     <img src = "images/jane-m.jpg" alt ="jane">
-                    <h1>Jane Doe</h1>
+                    <h1 id = "nameJD" >Jane Doe</h1>
                 </div>
 
                 <div class = "location">
@@ -42,7 +42,7 @@
                 
                 <div class = "edit-Profile">
                     <img src= "icons/gear.png" alt = "gear">
-                        <a href = "">edit profile</a>
+                        <a onclick = "changeName()" href = "#">edit profile</a>
                 </div>
                         
             </div>
@@ -64,25 +64,26 @@
         <div class = "right-side">
             <div class ="con-req">
                 <div class = "title-cq">
-                    <h2>2</h2>
+                    <h2 id = "CRnum" >2</h2>
                     <h2>Connection Requests</h2>
                 </div>
-                <div class = profiles-TP>
-                    <div class = "profile-T">
+
+                <div class = 'profiles-TP'>
+                    <div id = "allTodd" class = "profile-T">
                         <img src = "images/todd-s.jpg" alt = todd>
                         <h2>Todd E</h2>
                         <div class = "circle">
-                            <img src = "icons/accept-circle.png" alt = acc>
-                            <img src = "icons/close-circle.png" alt = clos>
+                            <img onclick = "addNumT()" src = "icons/accept-circle.png" alt = acc>
+                            <img onclick = "removeT()" src = "icons/close-circle.png" alt = clos>
                         </div>
                         
                     </div>
-                    <div class = "profile-P">
+                    <div id = "allPhil" class = "profile-P">
                         <img src = "images/phil-s.jpg" alt = todd>
                         <h2>Phil K</h2>
                         <div class = "circle">
-                            <img src = "icons/accept-circle.png" alt = acc>
-                            <img src = "icons/close-circle.png" alt = clos>
+                            <img onclick = "addNumP()"  src = "icons/accept-circle.png" alt = acc>
+                            <img onclick = "removeP()"  src = "icons/close-circle.png" alt = clos>
                         </div>
                         
                     </div>
@@ -91,7 +92,7 @@
             </div>
             <div class = "your-con">
                 <div class = "title-yc">
-                    <h2>500+</h2>
+                    <h2 id = "YCnum">423</h2>
                     <h2>Your Connections</h2>
                 </div>
                 <div class = "profile-4">
@@ -121,5 +122,6 @@
 
 
     </div>
+    <script src = "script.js"></script>
 </body>
 </html>
